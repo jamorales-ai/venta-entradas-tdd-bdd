@@ -74,6 +74,7 @@ Aceptación:
 3. Ejecutar todas las pruebas (unitarias + aceptación): 
 ```
 pytest -v  
+!pytest -v
 ```
 
 ---
