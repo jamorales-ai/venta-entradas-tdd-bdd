@@ -65,7 +65,7 @@ Unitarias:
 ```
 pytest tests/test_unitarias.py -v
 ```  
-o
+Si falla el código anterior, ejecutar el siguiente:
 ```
 !pytest test_unitarias.py -v
 ```
