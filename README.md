@@ -81,7 +81,9 @@ Si falla el código anterior, ejecutar el siguiente:
 3. Ejecutar todas las pruebas (unitarias + aceptación): 
 ```
 pytest -v
-o  
+```
+Si falla el código anterior, ejecutar el siguiente:  
+```
 !pytest -v
 ```
 
