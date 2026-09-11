@@ -64,16 +64,19 @@ pip install pytest
 ```
 Unitarias:
   pytest tests/test_unitarias.py -v
+  o
   !pytest test_unitarias.py -v
 ```
 ```
 Aceptación:
   pytest tests/test_aceptacion.py -v
+  o
   !pytest test_aceptacion.py -v
 ```
 3. Ejecutar todas las pruebas (unitarias + aceptación): 
 ```
-pytest -v  
+pytest -v
+o  
 !pytest -v
 ```
 
