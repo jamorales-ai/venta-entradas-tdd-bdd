@@ -1,24 +1,3 @@
-"""
-Logica de un sistema simple de venta de entradas para eventos.
-
-Este archivo contiene la ESTRUCTURA del codigo (clases y metodos) SIN
-implementar. Cada metodo lanza NotImplementedError.
-
-Tu tarea (usando TDD):
-1. Ejecuta las pruebas de aceptacion (tests/test_aceptacion.py) y comprueba
-   que fallan (fase ROJA).
-2. Elige una funcionalidad pequena.
-3. Escribe una prueba unitaria propia en tests/test_unitarias.py para esa
-   funcionalidad (ROJO).
-4. Implementa el codigo minimo aqui para que esa prueba pase (VERDE).
-5. Mejora el codigo si hace falta sin romper las pruebas (REFACTOR).
-6. Repite hasta que TODAS las pruebas (unitarias y de aceptacion) pasen.
-
-No debes cambiar los nombres de las clases ni de los metodos, porque las
-pruebas de aceptacion ya dependen de ellos. Si necesitas metodos o clases
-auxiliares adicionales, puedes agregarlos libremente.
-"""
-
 class Evento:
     """Representa un evento con un aforo máximo de entradas."""
 
