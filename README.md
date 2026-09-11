@@ -20,7 +20,7 @@ El proyecto incluye dos tipos de pruebas:
 
 **Pruebas unitarias (tests/test_unitarias.py):** validan casos específicos de cada funcionalidad, como creación de eventos, disponibilidad de entradas, registro de eventos, ventas válidas e inválidas y cálculo de totales con descuento.  
 
-**Pruebas de aceptación (tests/test_aceptacion.py):** proporcionadas por el profesor, verifican el comportamiento esperado desde el punto de vista del usuario final. Ejemplos: un evento inicia con 0 entradas vendidas, se puede vender dentro del aforo disponible, no se puede vender más entradas que las permitidas y el cálculo de descuento funciona correctamente.  
+**Pruebas de aceptación (tests/test_aceptacion.py):** verifican el comportamiento esperado desde el punto de vista del usuario final. Ejemplos: un evento inicia con 0 entradas vendidas, se puede vender dentro del aforo disponible, no se puede vender más entradas que las permitidas y el cálculo de descuento funciona correctamente.  
 
 **Evidencia:**  
 El ciclo TDD se refleja en la ejecución de pruebas.  
