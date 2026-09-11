@@ -80,7 +80,7 @@ pytest -v
 
 ## 📂 Estructura del proyecto  
 ```
-venta-entradas-tdd/
+venta-entradas-tdd-bdd/
 │
 ├── venta_entradas/
 │   └── modelos.py
