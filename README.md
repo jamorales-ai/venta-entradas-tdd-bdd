@@ -22,12 +22,7 @@ El proyecto incluye dos tipos de pruebas:
 
 **Pruebas de aceptación (tests/test_aceptacion.py):** verifican el comportamiento esperado desde el punto de vista del usuario final. Ejemplos: un evento inicia con 0 entradas vendidas, se puede vender dentro del aforo disponible, no se puede vender más entradas que las permitidas y el cálculo de descuento funciona correctamente.  
 
-**Evidencia:**  
-El ciclo TDD se refleja en la ejecución de pruebas.  
-- Fase ROJA: todas las pruebas fallan inicialmente (NotImplementedError).  
-- Fase VERDE: tras la implementación, todas las pruebas pasan correctamente.  
-
-Ejemplo de salida final:  
+**Ejemplo de salida final:**
 
 ```
 ============================= test session starts =============================
