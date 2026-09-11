@@ -56,24 +56,28 @@ test_unitarias.py::test_calcular_total_con_descuento_invalido_lanza_error PASSED
 ---
 
 ## ⚙️ Instalación y uso  
-1. Clonar el repositorio:  
-   git clone https://github.com/albasagas/venta-entradas-tdd.git  
-   cd venta-entradas-tdd  
-
-2. Instalar dependencias:  
+1. Instalar dependencias:  
    pip install pytest  
 
-3. Ejecutar pruebas unitarias:  
-   pytest tests/test_unitarias.py -v  
-
+2. Ejecutar pruebas:
+```
+Unitarias:
+```
+   pytest tests/test_unitarias.py -v
+   !pytest test_unitarias.py -v
+```
+Aceptación
+```
+   pytest tests/test_aceptacion.py -v
+   !pytest test_aceptacion.py -v
+```
 4. Ejecutar todas las pruebas (unitarias + aceptación):  
    pytest -v  
 
 ---
 
 ## 📂 Estructura del proyecto  
-
----
+```
 venta-entradas-tdd/
 │
 ├── venta_entradas/
@@ -84,9 +88,7 @@ venta-entradas-tdd/
 │   └── test_aceptacion.py
 │
 └── README.md
----
-
-
+```
 ---
 
 ## 👨‍💻 Autor  
