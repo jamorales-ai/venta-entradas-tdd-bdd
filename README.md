@@ -56,11 +56,11 @@ test_unitarias.py::test_calcular_total_con_descuento_invalido_lanza_error PASSED
 ---
 
 ## ⚙️ Instalación y uso  
-1. Instalar dependencias:  
+1. Instalar dependencias:
+```  
    pip install pytest  
-
-2. Ejecutar pruebas:
 ```
+2. Ejecutar pruebas:
 Unitarias:
 ```
    pytest tests/test_unitarias.py -v
@@ -71,7 +71,7 @@ Aceptación
    pytest tests/test_aceptacion.py -v
    !pytest test_aceptacion.py -v
 ```
-4. Ejecutar todas las pruebas (unitarias + aceptación):  
+3. Ejecutar todas las pruebas (unitarias + aceptación):  
    pytest -v  
 
 ---
